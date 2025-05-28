@@ -23,7 +23,9 @@ import com.example.pruebaexamenk.ui.components.navigation.NavGraph
 import com.example.pruebaexamenk.ui.components.navigation.getBottomBarForRoute
 import com.example.pruebaexamenk.ui.components.navigation.getTopBarForRoute
 import com.example.pruebaexamenk.ui.theme.PruebaExamenKTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
