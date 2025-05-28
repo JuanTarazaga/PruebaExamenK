@@ -7,7 +7,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class PantallaInicialViewModel @Inject constructor (
-    private val Reposoitory: Repository
+    private val repository: Repository
 ) : ViewModel() {
 
 }
